@@ -1,0 +1,122 @@
+@import "_resetstyle.scss";
+body {
+  background-color: rgb(233, 233, 233);
+}
+header {
+  .link-bar {
+    margin-top: 20px;
+    .links {
+      margin-left: 30px;
+      color: black;
+      font-weight: 700;
+      font-family: sans-serif;
+      text-decoration: none;
+    }
+  }
+}
+main {
+  .header {
+    margin-left: 30px;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .conteiners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    .card {
+      margin-left: 20px;
+      width: 360px;
+      height: 357px;
+      display: inline-block;
+      background-color: white;
+      .view {
+        position: absolute;
+        height: 168px;
+        width: 360px;
+      }
+      .head {
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+        position: relative;
+      }
+      .text {
+        margin-left: 10px;
+        margin-top: 150px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: gray;
+      }
+      .timer {
+        margin-left: 10px;
+        margin-top: 30px;
+        height: 20px;
+      }
+      .late {
+        display: inline-block;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: gray;
+      }
+    }
+  }
+}
+footer {
+  .header {
+    margin-left: 30px;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .imagesss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .first-div {
+      width: 758px;
+      .important1 {
+        width: 758px;
+        height: 430px;
+      }
+    }
+    .second-div {
+      width: 362px;
+
+      .important2 {
+        width: 362px;
+        height: 212px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  header,
+  main,
+  footer {
+    display: none;
+  }
+  .low-width-message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

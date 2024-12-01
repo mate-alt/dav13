@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+header .link-bar {
+  margin-top: 20px;
+}
+header .link-bar .links {
+  margin-left: 30px;
+  color: black;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+main .header {
+  margin-left: 30px;
+  font-size: 32px;
+  color: black;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+main .conteiners {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+main .conteiners .card {
+  margin-left: 20px;
+  width: 360px;
+  height: 357px;
+  display: inline-block;
+  background-color: white;
+}
+main .conteiners .card .view {
+  position: absolute;
+  height: 168px;
+  width: 360px;
+}
+main .conteiners .card .head {
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+}
+main .conteiners .card .text {
+  margin-left: 10px;
+  margin-top: 150px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: gray;
+}
+main .conteiners .card .timer {
+  margin-left: 10px;
+  margin-top: 30px;
+  height: 20px;
+}
+main .conteiners .card .late {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: gray;
+}
+
+footer .header {
+  margin-left: 30px;
+  font-size: 32px;
+  color: black;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+footer .imagesss {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .imagesss .first-div {
+  width: 758px;
+}
+footer .imagesss .first-div .important1 {
+  width: 758px;
+  height: 430px;
+}
+footer .imagesss .second-div {
+  width: 362px;
+}
+footer .imagesss .second-div .important2 {
+  width: 362px;
+  height: 212px;
+}
+
+@media screen and (max-width: 1110px) {
+  body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  header,
+  main,
+  footer {
+    display: none;
+  }
+  .low-width-message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=style.css.map */
